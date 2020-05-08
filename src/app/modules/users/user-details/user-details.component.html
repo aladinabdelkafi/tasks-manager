@@ -1,0 +1,25 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <br>
+            <br>
+            <br>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 mx-auto">
+                <div class="card card-profile">
+
+                    <div class="card-body">
+                        <h6 class="card-category text-gray">{{user.username}}</h6>
+                        <h4 class="card-title" >{{user.firstName}}</h4>
+                        <h4 class="card-title" >{{user.lastName}}</h4>
+
+                        <p class="card-description" >{{user.email}}</p>
+                        <p class="card-description" >{{user.role}}</p>
+                        <a routerLink="../../user-list" role="button" aria-pressed="true" class="btn btn-danger btn-round">Retour</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
